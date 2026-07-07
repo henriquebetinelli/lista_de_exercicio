@@ -1,23 +1,15 @@
 <?php
 
 function calcularTemperatura($temperatura, $unidadeOrigem, $unidadeDestino) {
-    if (eDeCelciusParaFahrenheit($unidadeOrigem, $unidadeDestino)) {
+    if ($unidadeOrigem === 'C' && $unidadeDestino === 'F')) {
         return ($temperatura * 9/5) + 32;
     } 
     
-    if (eDeFahrenheitParaCelcius($unidadeOrigem, $unidadeDestino)) {
+    if ($unidadeOrigem === 'F' && $unidadeDestino === 'C') {
         return ($temperatura - 32) * 5/9;
     }  
 
     return $temperatura;
-}
-
-function eDeCelciusParaFahrenheit($unidadeOrigem, $unidadeDestino) {
-    return $unidadeOrigem === 'C' && $unidadeDestino === 'F';
-}
-
-function eDeFahrenheitParaCelcius($unidadeOrigem, $unidadeDestino) {
-    return $unidadeOrigem === 'F' && $unidadeDestino === 'C';
 }
 
 $temperatura = 25;

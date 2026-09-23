@@ -75,3 +75,34 @@ Calcula estatísticas de uma lista de números, incluindo:
 - Mediana;
 - Quantidade de números pares;
 - Quantidade de números ímpares.
+
+### Exercício 15 
+Criação de uma biblioteca com funções reutilizáveis, como:
+- Calcular IMC
+- Validar e-mail
+- Gerar senha
+- Contar vogais
+- Inverter texto
+- Calcular idade
+- Converter moeda
+- Formatar telefone
+- Gerar saudação
+- Validar senha forte
+
+### Exercício 16 
+Análise de senhas verificando letras maiúsculas, minúsculas, números, caracteres especiais, tamanho e nível de segurança.
+
+### Exercício 17 
+Processamento de textos para obter informações como quantidade de palavras, caracteres, frases, palavras repetidas e palavras mais frequentes.
+
+### Exercício 18 
+Organização de consultas médicas utilizando vetores multidimensionais.
+O exercício permite:
+- Contar o total de consultas;
+- Contar pacientes diferentes;
+- Contar consultas por especialidade;
+- Encontrar o primeiro atendimento;
+- Encontrar o último atendimento;
+- Ordenar consultas por horário;
+- Pesquisar um paciente;
+- Verificar horários duplicados.
